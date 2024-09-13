@@ -1,0 +1,150 @@
+/* Top bar styles */
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 200px;
+    background-color: #333;
+    color: white;
+    font-size: 14px;
+    height: 1rem;
+
+  }
+  
+  .store-location i img{
+    /* margin-right: 5px; */
+    height: 14px;
+    width: 14px;
+  }
+  
+  .language-currency {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .language-currency span {
+    cursor: pointer;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+  }
+  .price-div{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    justify-content: start;
+  }
+
+  .logo img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .logo span {
+    font-size: 24px;
+    font-weight: bold;
+    color: green;
+    margin-left: 10px;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input {
+    width: 250px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .search-bar button {
+    background-color: green;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .right-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* width: 10rem; */
+    gap: 10px;
+  }
+  .heart-icon{
+    border-right: 1px solid gray;
+    margin-left: 10px;
+    padding-right: 10px;
+  }
+
+  .phone-icon-div{
+    height: 20px;
+    width: 20px;
+  }
+  
+  
+  .shopping-cart {
+    position: relative;
+  }
+  
+  .shopping-cart i {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .cart-count {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: green;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 50%;
+  }
+  
+  .cart-price {
+    margin-left: 10px;
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 8rem;
+    margin-top: 10px;
+  }
+  .bottom-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 200px;
+  }
+  /* Bottom navigation styles */
+  .bottom-nav ul {
+    display: flex;
+    gap: 20px;
+    padding: 10px 20px;
+    list-style: none;
+    border-top: 1px solid #ccc;
+    margin: 0;
+  }
+  
+  .bottom-nav ul li {
+    cursor: pointer;
+    color: green;
+  }
+  
+  .bottom-nav ul li:hover {
+    text-decoration: underline;
+  }
+  
